@@ -1,8 +1,10 @@
+import profile from '../../public/images/profile.png'
 const Header = () => {
     return (
-        <div>
-            <h1 className='text-6xl bg-red-300'>Vite + React</h1>
-        </div>
+        <header className='flex justify-between items-center p-4 mx-4 border-b-2'>
+            <h1 className='text-4xl font-bold'>Knowledge cafe</h1>
+            <img src={profile} alt="" />
+        </header>
     );
 };
 
